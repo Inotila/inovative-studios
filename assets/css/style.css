@@ -1,0 +1,127 @@
+/* general */
+
+html {
+    height: 100% !important;
+}
+
+body {
+    background-color: #666666 !important;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+h1 {
+    font-family: send flowers;
+    font-size: 5rem;
+}
+
+.row {
+    margin: 0px;
+}
+
+.col {
+    padding: 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.off-padding {
+    padding: 0px !important;
+}
+
+.override-a-defualt {
+    color: #000 !important;
+}
+
+
+/*--------------------------- nav bar ----------------------- */
+nav {
+    background-color: #000;
+    color: #F5F5F5;
+    font-family: Oswald;
+    font-weight: 200;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.navbar-toggler {
+    padding: 0px;
+    font-size: 1.25rem;
+    background-color: #000;
+    color: #F5F5F5 !important;
+    border: none;
+}
+
+/* logo */
+
+/* mid/search section */
+
+
+/* right/catergory section */
+
+/*----------------- footer --------------- */
+footer {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family: Oswald;
+    font-weight: 200;
+}
+
+.social-media {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;        
+  }
+
+#facebook{
+    color: #4267B2;
+}
+
+#email-footer-span{
+    color: #F5F5F5;
+}
+
+/* media for devices smaller than tablets */
+@media (max-width: 768px) {
+     /* -------- nav -------- */
+    
+    /* -------- footer --------*/
+
+
+ /* -------- index page -------- */
+      
+/* -------- details page -------- */
+
+}
+
+@media (max-width: 425px) {
+    
+
+/* -------- login -------- */
+
+    
+/* -------- checkout done  page -------- */
+    
+}
+
+@media (max-width: 320px){
+
+}
