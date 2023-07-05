@@ -20,8 +20,7 @@ a:hover{
 }
 
 h1 {
-    font-family: send flowers;
-    font-size: 5rem;
+    font-size: 1rem;
 }
 
 .row {
@@ -35,6 +34,7 @@ h1 {
 p {
     margin-top: 0;
     margin-bottom: 0;
+    font: 30px Oswald;
 }
 
 .off-padding {
@@ -48,12 +48,16 @@ p {
 
 /*--------------------------- nav bar ----------------------- */
 nav {
-    background-color: #000;
+    background-color: #666666 ;
     color: #F5F5F5;
     font-family: Oswald;
     font-weight: 200;
     padding: 0px !important;
     margin: 0px !important;
+}
+
+#nav-logo {
+    max-height: 150px;
 }
 
 .navbar-toggler {
@@ -68,15 +72,23 @@ nav {
 
 /* mid/search section */
 
+video{
+    background-color: rgb(235, 235, 235) !important;
+}
+
 
 /* right/catergory section */
 
 /*----------------- footer --------------- */
 footer {
-    background-color: #000 !important;
-    color: #fff !important;
+    background-color: #666666 !important;
+    color: #000000 !important;
     font-family: Oswald;
     font-weight: 200;
+}
+
+.privacy-copyright-text{
+    color: #000 !important;
 }
 
 .social-media {
@@ -99,6 +111,12 @@ footer {
     color: #F5F5F5;
 }
 
+/* body */
+
+.video-container{
+    max-height: 50%;
+}
+
 /* media for devices smaller than tablets */
 @media (max-width: 768px) {
      /* -------- nav -------- */
@@ -113,15 +131,19 @@ footer {
 }
 
 @media (max-width: 425px) {
-    
 
-/* -------- login -------- */
+   #nav-logo{
+    height: 100px;
+   }
+    video{
+        max-width:95%;
+        height: 50%;
+    }
 
-    
-/* -------- checkout done  page -------- */
-    
-}
-
-@media (max-width: 320px){
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font: 1rem Oswald;
+    }
 
 }
